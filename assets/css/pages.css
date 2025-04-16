@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+nav a:hover, nav a.active {
+    color: #00f0ff;
+    border-bottom: 2px solid #00f0ff;
+}
+
+.container {
+    padding: 60px 10%;
+}
+
+h1, h2 {
+    color: #00f0ff;
+}
+
+p {
+    line-height: 1.6;
+    color: #ccc;
+}
+
+/* Common glowing border style */
+.glow-box {
+    border: 2px solid #00f0ff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px #00f0ff30;
+    margin-bottom: 20px;
+}
+
+/* Contact form style */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    background: #111;
+    border: 1px solid #00f0ff;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+form button {
+    background-color: #00f0ff;
+    border: none;
+    padding: 10px 20px;
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #00d0dd;
+}

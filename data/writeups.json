@@ -1,0 +1,19 @@
+[
+    {
+      "title": "Ghostly Persistence",
+      "platform": "HackTheBox",
+      "category": "Network",
+      "date": "2024-10-24",
+      "summary": "Analyzed PCAPs and found a flag hidden across split sessions.",
+      "link": "writeups/ghostly-persistence.html"
+    },
+    {
+      "title": "WayWitch",
+      "platform": "HackTheBox",
+      "category": "Web",
+      "date": "2024-10-25",
+      "summary": "Exploited token logic and Docker misconfig to get RCE.",
+      "link": "writeups/waywitch.html"
+    }
+  ]
+  
