@@ -2,6 +2,16 @@
 
   const writeups = [
     {
+      title: "n0s4n1ty-1 Pico CTF",
+      link: "https://medium.com/@mysticraganork66/n0s4n1ty-1-pico-ctf-13f26a68f9bf",
+      tags: ["web"],
+      description: "n0s4n1ty 1 Pico CTF",
+      difficulty: "Beginner",
+      date: "April 16, 2025",
+      detailedDescription: "File upload sanity issue",
+      featured: true
+    },
+    {
       title: "What CTFs Taught Me That College Didn’t",
       link: "https://medium.com/@mysticraganork66/what-ctfs-taught-me-that-college-didnt-93dd9ee86919",
       tags: ["Misc"],
